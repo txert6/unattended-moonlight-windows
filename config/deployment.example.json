@@ -1,0 +1,9 @@
+{
+  "computerTailscaleIPv4": "auto-detect",
+  "trustedClientIPv4s": [],
+  "sunshineName": "Remote-Streaming-PC",
+  "encoder": "nvenc",
+  "disableSleepOnAC": true,
+  "clashVergeExecutable": "",
+  "notes": "Fill trustedClientIPv4s using your own tablet/phone Tailscale IPs, then pass the values to Configure-Host.ps1. This JSON is a planning template, not automatically executed."
+}

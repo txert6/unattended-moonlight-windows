@@ -1,0 +1,26 @@
+# Local downloads, credentials, reports and build outputs stay on this PC.
+/downloads/
+/private/
+/local-backups/
+/artifacts/
+/dist/
+*.log
+*.dpapi
+*.pfx
+*.p12
+*.key
+*.pem
+sunshine_state.json
+credentials.json
+credentials.txt
+verge.yaml
+profiles.yaml
+.env
+.env.*
+!.env.example
+*.msi
+*.apk
+*.zip
+*.exe
+*.pdb
+!.gitkeep

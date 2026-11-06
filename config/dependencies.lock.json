@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "validatedOn": "2026-11-06",
+  "files": [
+    {
+      "id": "sunshine-windows",
+      "platform": "windows",
+      "version": "2026.914.233613",
+      "fileName": "Sunshine-Windows-AMD64-installer.msi",
+      "url": "https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-AMD64-installer.msi",
+      "sha256": "1D7FED8BEECD5889DC7FF14CF9F42D6D38F37C3066C13C6C2A5F4E91847E0CCF",
+      "authenticodeRequired": true,
+      "source": "https://github.com/LizardByte/Sunshine/tree/v2026.914.233613"
+    },
+    {
+      "id": "tailscale-windows",
+      "platform": "windows",
+      "version": "1.104.5",
+      "fileName": "tailscale-setup-1.104.5-amd64.msi",
+      "url": "https://pkgs.tailscale.com/stable/tailscale-setup-1.104.5-amd64.msi",
+      "sha256": "3C41318C83C5D95D0B017B1BAA08BA7C99FD5334166122BBB1931E55AF99839C",
+      "authenticodeRequired": true,
+      "source": "https://github.com/tailscale/tailscale/tree/v1.104.5"
+    },
+    {
+      "id": "moonlight-android",
+      "platform": "android",
+      "version": "12.2",
+      "fileName": "Moonlight-v12.2-official-nonRoot.apk",
+      "url": "https://github.com/moonlight-stream/moonlight-android/releases/download/v12.2/app-nonRoot-release.apk",
+      "sha256": "A871F6190365386EF3AC5722A016D4DA015EE1555631EC257F6E5DC3F4A45FE0",
+      "authenticodeRequired": false,
+      "source": "https://github.com/moonlight-stream/moonlight-android/tree/v12.2"
+    },
+    {
+      "id": "tailscale-android",
+      "platform": "android",
+      "version": "1.104.5",
+      "fileName": "tailscale-android-universal-1.104.5.apk",
+      "url": "https://pkgs.tailscale.com/stable/tailscale-android-universal-1.104.5.apk",
+      "sha256": "A517F94006B90A9DBD7383221CBD05FF4ACF5EA680335B9B0318E3FBF086D4C9",
+      "authenticodeRequired": false,
+      "source": "https://tailscale.com/download/android"
+    }
+  ],
+  "optional": [
+    {
+      "id": "clash-verge-rev",
+      "validatedVersion": "2.5.10",
+      "purpose": "Optional existing TUN/proxy environment; only startup registration is automated",
+      "source": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+      "configuration": "Use your own authorized profile; no subscription or proxy credentials are included"
+    }
+  ]
+}

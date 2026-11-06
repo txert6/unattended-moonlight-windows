@@ -1,0 +1,20 @@
+# Replace the placeholder with this PC's Tailscale IPv4, or use Configure-Host.ps1.
+address_family = ipv4
+bind_address = <PC_TAILSCALE_IP>
+sunshine_name = Remote-Streaming-PC
+encoder = nvenc
+nvenc_preset = 1
+hevc_mode = 0
+av1_mode = 0
+origin_web_ui_allowed = lan
+upnp = disabled
+controller = disabled
+gamepad_driver = vigembus
+keyboard = enabled
+mouse = enabled
+locale = zh
+dd_configuration_option = verify_only
+dd_resolution_option = disabled
+dd_refresh_rate_option = disabled
+dd_hdr_option = auto
+dd_config_revert_on_disconnect = enabled
